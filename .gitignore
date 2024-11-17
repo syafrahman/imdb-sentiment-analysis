@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS-specific files
+.DS_Store
+
+# Weights & Biases directory
+wandb/
+wandb-debug.log
+
+# Saved model files and directories
+saved_model/
+*.bin
+*.safetensors
+*.h5
+*.onnx
+*.ckpt
+
+# Logs and debugging files
+logs/
+*.log
+
+# Dataset files (optional, if you want to exclude datasets)
+data/
+*.csv
+*.json
+*.tsv
+
+# Ignore large training-related files
+checkpoints/
+results/
+runs/
